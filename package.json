@@ -12,16 +12,13 @@
   },
   "dependencies": {
     "bluebird": "^2.3.11",
-    "describe-property": "^1.0.0"
+    "describe-property": "^1.0.0",
+    "redis": "git://github.com/danlash/node_redis.git"
   },
   "devDependencies": {
     "expect": "^1.1.0",
     "jshint": "^2.5.10",
-    "mocha": "^2.0.1",
-    "redis": "^0.12.1"
-  },
-  "peerDependencies": {
-    "redis": "^0.12.1"
+    "mocha": "^2.0.1"
   },
   "keywords": [
     "redis",
