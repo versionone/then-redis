@@ -13,7 +13,7 @@
   "dependencies": {
     "bluebird": "^2.3.11",
     "describe-property": "^1.0.0",
-    "redis": "git://github.com/danlash/node_redis.git"
+    "redis": "git://github.com/danlash/node_redis.git#options"
   },
   "devDependencies": {
     "expect": "^1.1.0",
