@@ -95,7 +95,7 @@ function Client(options) {
   if (options.returnBuffers)
     options.return_buffers = true;
 
-  var redisClient = redis.createClient(this.port, this.host, options);
+  var redisClient = redis.createClient(options);
 
   EVENTS.forEach(function (eventName) {
     redisClient.on(eventName, this.emit.bind(this, eventName));
