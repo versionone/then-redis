@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/mjackson/then-redis.git"
+    "url": "https://github.com/mjackson/then-redis.git"
   },
   "dependencies": {
     "bluebird": "^2.3.11",
     "describe-property": "^1.0.0",
-    "redis": "git://github.com/danlash/node_redis.git#options"
+    "redis": "https://github.com/danlash/node_redis.git#options"
   },
   "devDependencies": {
     "expect": "^1.1.0",
